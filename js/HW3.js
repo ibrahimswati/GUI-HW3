@@ -20,7 +20,7 @@ function getdataforcolrows() {   //Declare all variables needed for table
   var ab = 0;
   var cd = 0;
 
-  if (!isNaN(cols) && !isNaN(rows) && !isNaN(colstart) && !isNaN(rowstart)) {   //Make sure values are not null
+  if (!isNaN(cols) && cols < 1000 && !isNaN(rows) && rows < 1000 && !isNaN(colstart) && !isNaN(rowstart)) {   //Make sure values are not null
     debugger;
     $("#tabled").html('');
     var flag = false;
