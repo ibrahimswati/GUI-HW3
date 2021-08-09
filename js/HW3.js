@@ -66,7 +66,7 @@ function getdataforcolrows() {   //Declare all variables needed for table
 
   else {                        //Else to handle errors such as not numberic value
     $("#tabled").html('');
-    var table = '<tr><td>Please enter numeric value.</td></tr>';
+    var table = '<tr><td>Please enter numeric value or a value below 1000 for row and column.</td></tr>';
     $("#tabled").append(table);
   }
 }
